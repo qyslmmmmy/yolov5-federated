@@ -256,3 +256,22 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+# data (软链接指向数据盘)
+data/
+datasets/
+weights/
+
+# logs
+runs/
+tf-logs/
+
+# environment
+miniconda3/
+.env
+*.pt
+*.pth
+
+# cache
+__pycache__/
+.ipynb_checkpoints/
